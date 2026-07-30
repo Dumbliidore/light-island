@@ -1,5 +1,6 @@
 ---
 icon: lucide/map-plus
+comments: true
 ---
 
 # Django制作地图
