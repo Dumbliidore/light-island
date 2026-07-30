@@ -1,0 +1,12 @@
+[project]
+name = "light-island"
+version = "0.1.0"
+description = "累上流云借月章"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "zensical>=0.0.50",
+]
