@@ -46,6 +46,7 @@ Copyright &copy; 2026 Dumbliidore
 nav = [
   "index.md",
   "django制作地图.md",
+  "rust实战教学.md",
 ]
 
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -306,6 +307,21 @@ link = "https://github.com/Dumbliidore"
 
 [project.extra]
 generator = false
+
+[project.theme.icon.tag]
+default = "lucide/hash"
+html = "fontawesome/brands/html5"
+js = "fontawesome/brands/js"
+css = "fontawesome/brands/css3"
+rust = "simple/rust"
+django = "simple/django"
+
+[project.extra.tags]
+HTML5 = "html"
+JavaScript = "js"
+CSS = "css"
+Rust = "rust"
+Django = "django"
 
 # ----------------------------------------------------------------------------
 # In this section you can configure the Markdown extensions that are used when
