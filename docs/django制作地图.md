@@ -1,6 +1,12 @@
 ---
 icon: lucide/map-plus
 comments: true
+tags:
+  - Python
+  - Django
+  - HTML5
+  - JS
+  - CSS
 ---
 
 # Django制作地图
