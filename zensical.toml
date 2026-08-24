@@ -44,11 +44,25 @@ Copyright &copy; 2026 Dumbliidore
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 nav = [
-  "index.md",
-  "django制作地图.md",
-  "rust实战教学.md",
+    { "首页" = "index.md" },
+    { "Django制作地图" = "django制作地图.md" },
+    { "Rust实战教学" = [
+        "rust实战教学/index.md",
+        "rust实战教学/01_基础语法篇.md",
+        "rust实战教学/02_结构体与集合篇.md",
+        "rust实战教学/03_模块系统篇.md",
+        "rust实战教学/04_第三方crate篇.md",
+        "rust实战教学/05_错误处理篇.md",
+        "rust实战教学/06_泛型与Trait篇.md",
+        "rust实战教学/07_测试篇.md",
+        "rust实战教学/08_文件与命令行篇.md",
+        "rust实战教学/09_闭包与迭代器篇.md",
+        "rust实战教学/10_智能指针篇.md",
+        "rust实战教学/11_并发篇.md",
+        "rust实战教学/12_面向对象篇.md",
+        "rust实战教学/13_网络与线程池篇.md",
+    ] },
 ]
-
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
 # CSS files.
@@ -216,7 +230,7 @@ features = [
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-tabs
-    #"navigation.tabs",
+    # "navigation.tabs",
 
     # When sticky tabs are enabled, navigation tabs will lock below the header
     # and always remain visible when scrolling down.
@@ -310,18 +324,20 @@ generator = false
 
 [project.theme.icon.tag]
 default = "lucide/hash"
-html = "fontawesome/brands/html5"
-js = "fontawesome/brands/js"
-css = "fontawesome/brands/css3"
+html = "simple/html5"
+js = "simple/javascript"
+css = "simple/css"
 rust = "simple/rust"
 django = "simple/django"
+python = "simple/python"
 
 [project.extra.tags]
 HTML5 = "html"
-JavaScript = "js"
+JS = "js"
 CSS = "css"
 Rust = "rust"
 Django = "django"
+Python = "python"
 
 # ----------------------------------------------------------------------------
 # In this section you can configure the Markdown extensions that are used when
